@@ -8,6 +8,12 @@ Cling treats CLI commands as Golang structs, providing full control over argumen
 Also, Cling includes a simple validation system and a "commands' registry" abstraction.
 Commands' registry simplifies the process of running commands using `os.Args`.
 
+## Install
+
+```shell
+go get github.com/mihai-valentin/cling
+```
+
 ## Convention
 
 1. The command name must be passed as the second argument (e.g. `myapp command-name arg1=1 arg2=2`)
