@@ -1,5 +1,7 @@
 # Cling
 
+[![Build&Test](https://github.com/mihai-valentin/cling/actions/workflows/test.yml/badge.svg)](https://github.com/mihai-valentin/cling/actions/workflows/test.yml)
+
 Cling is a tiny CLI framework.
 
 Cling treats CLI commands as Golang structs, providing full control over arguments and flags.
